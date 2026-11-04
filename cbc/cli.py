@@ -38,13 +38,13 @@ def cmd_eval(a: argparse.Namespace) -> int:
     else:
         from .extract import extract_file
         run_dir = ROOT / "evals" / "runs" / datetime.now().strftime("%Y-%m-%d_%H%M%S")
-        run_dir.mkdir(parents=True, exist_ok=True)
         preds = {}
         for case in evaluate.load_cases():
             if a.only and case["id"] not in a.only:
                 continue
             print(f"extracting {case['id']} ...", file=sys.stderr)
             preds[case["id"]] = extract_file(ROOT / "data" / "contracts" / f"{case['id']}.md", model=a.model)
+        run_dir.mkdir(parents=True, exist_ok=True)   # only once every extraction succeeded
         evaluate.save_predictions(preds, run_dir / "predictions.json")
     results, report = evaluate.run(preds)
     (run_dir / "results.md").write_text(report)
