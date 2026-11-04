@@ -1,0 +1,52 @@
+[
+  {
+    "invoice_number": "NW-1001",
+    "contract_number": "BESS-2026-001",
+    "invoice_date": "2026-03-16",
+    "due_date": "2026-04-15",
+    "currency": "USD",
+    "amount": 248000.0,
+    "milestone": "Deposit",
+    "description": "10% deposit on execution"
+  },
+  {
+    "invoice_number": "NW-1002",
+    "contract_number": "BESS-2026-001",
+    "invoice_date": "2026-07-21",
+    "due_date": "2026-08-20",
+    "currency": "USD",
+    "amount": 1488000.0,
+    "milestone": "Shipment",
+    "description": "60% on ex-works shipment"
+  },
+  {
+    "invoice_number": "NW-1003",
+    "contract_number": "BESS-2026-001",
+    "invoice_date": "2026-09-28",
+    "due_date": "2026-10-15",
+    "currency": "USD",
+    "amount": 600000.0,
+    "milestone": "Commissioning",
+    "description": "25% on commissioning"
+  },
+  {
+    "invoice_number": "NW-1003",
+    "contract_number": "BESS-2026-001",
+    "invoice_date": "2026-10-02",
+    "due_date": "2026-11-01",
+    "currency": "USD",
+    "amount": 45000.0,
+    "milestone": "Site survey",
+    "description": "Additional site survey work"
+  },
+  {
+    "invoice_number": "NW-1004",
+    "contract_number": "BESS-2026-001",
+    "invoice_date": "2026-10-30",
+    "due_date": "2026-11-29",
+    "currency": "USD",
+    "amount": 124000.0,
+    "milestone": "Final Acceptance",
+    "description": "5% on final acceptance"
+  }
+]

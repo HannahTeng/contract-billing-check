@@ -1,0 +1,22 @@
+[
+  {
+    "invoice_number": "KP-5590",
+    "contract_number": "PO-77102",
+    "invoice_date": "2026-04-02",
+    "due_date": "2026-05-17",
+    "currency": "EUR",
+    "amount": 183750.0,
+    "milestone": "Advance payment",
+    "description": "30% advance"
+  },
+  {
+    "invoice_number": "KP-5634",
+    "contract_number": "PO-77102",
+    "invoice_date": "2026-08-10",
+    "due_date": "2026-09-24",
+    "currency": "EUR",
+    "amount": 428750.0,
+    "milestone": "Delivery",
+    "description": "70% on delivery"
+  }
+]

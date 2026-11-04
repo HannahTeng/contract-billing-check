@@ -1,0 +1,40 @@
+{
+  "contract_number": "FA/2026/0912",
+  "supplier": "Baltic Cell Systems OÜ",
+  "customer": "Nordlicht Energie AG",
+  "total_contract_value": 1250000.0,
+  "currency": "EUR",
+  "payment_terms_days": 45,
+  "milestones": [
+    {
+      "name": "Signature",
+      "percent_of_total": 20,
+      "trigger": "upon signature"
+    },
+    {
+      "name": "Readiness for dispatch",
+      "percent_of_total": 50,
+      "trigger": "notification of readiness for dispatch"
+    },
+    {
+      "name": "Delivery",
+      "percent_of_total": 30,
+      "trigger": "upon delivery"
+    }
+  ],
+  "delivery_deadline": "2026-10-15",
+  "liquidated_damages_percent_per_week": 0.75,
+  "liquidated_damages_cap_percent": 7.5,
+  "warranty_months": 36,
+  "change_orders_require_written_approval": true,
+  "evidence": [
+    {
+      "field": "total_contract_value",
+      "quote": "one million two hundred fifty thousand euros (EUR 1.25M)"
+    },
+    {
+      "field": "payment_terms_days",
+      "quote": "forty-five (45) days"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "contract_number": "BESS-2026-001",
+  "supplier": "Northwind Energy Systems Inc.",
+  "customer": "Helios Grid Storage LLC",
+  "total_contract_value": 2480000.0,
+  "currency": "USD",
+  "payment_terms_days": 30,
+  "milestones": [
+    {
+      "name": "Deposit",
+      "percent_of_total": 10,
+      "trigger": "execution of this Agreement"
+    },
+    {
+      "name": "Shipment",
+      "percent_of_total": 60,
+      "trigger": "ex-works shipment of both Units from Supplier's facility"
+    },
+    {
+      "name": "Commissioning",
+      "percent_of_total": 25,
+      "trigger": "successful completion of the commissioning test under Exhibit C"
+    },
+    {
+      "name": "Final Acceptance",
+      "percent_of_total": 5,
+      "trigger": "issuance of the Final Acceptance Certificate"
+    }
+  ],
+  "delivery_deadline": "2026-09-30",
+  "liquidated_damages_percent_per_week": 0.5,
+  "liquidated_damages_cap_percent": 5,
+  "warranty_months": 24,
+  "change_orders_require_written_approval": true,
+  "evidence": [
+    {
+      "field": "total_contract_value",
+      "quote": "USD 2,480,000.00"
+    },
+    {
+      "field": "payment_terms_days",
+      "quote": "thirty (30) days"
+    },
+    {
+      "field": "delivery_deadline",
+      "quote": "30 September 2026"
+    },
+    {
+      "field": "liquidated_damages_percent_per_week",
+      "quote": "0.5% of the Contract Price for each full week of delay"
+    },
+    {
+      "field": "warranty_months",
+      "quote": "twenty-four (24) months"
+    }
+  ]
+}

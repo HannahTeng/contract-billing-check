@@ -1,0 +1,35 @@
+{
+  "contract_number": "PO-77102",
+  "supplier": "Kestrel Power Electronics GmbH",
+  "customer": "Sierra Microgrid Partners LP",
+  "total_contract_value": 612500.0,
+  "currency": "EUR",
+  "payment_terms_days": 45,
+  "milestones": [
+    {
+      "name": "Advance payment",
+      "percent_of_total": 30,
+      "trigger": "Seller's order confirmation"
+    },
+    {
+      "name": "Delivery",
+      "percent_of_total": 70,
+      "trigger": "delivery of the Goods"
+    }
+  ],
+  "delivery_deadline": "2026-08-15",
+  "liquidated_damages_percent_per_week": null,
+  "liquidated_damages_cap_percent": null,
+  "warranty_months": null,
+  "change_orders_require_written_approval": true,
+  "evidence": [
+    {
+      "field": "total_contract_value",
+      "quote": "EUR 612,500.00"
+    },
+    {
+      "field": "payment_terms_days",
+      "quote": "net forty-five (45) days"
+    }
+  ]
+}

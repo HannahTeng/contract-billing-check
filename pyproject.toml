@@ -1,0 +1,19 @@
+[project]
+name = "contract-billing-check"
+version = "0.1.0"
+description = "Contract term extraction with Claude + deterministic invoice validation, with an eval set that scores hallucinations and prompt-injection resistance."
+requires-python = ">=3.10"
+dependencies = ["anthropic>=1.0", "pydantic>=2.0", "pyyaml>=6.0"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+cbc = "cbc.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["cbc*"]

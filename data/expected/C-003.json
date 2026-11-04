@@ -1,0 +1,45 @@
+{
+  "contract_number": "SC-2026-0419",
+  "supplier": "Granite Ridge Electrical Services, Inc.",
+  "customer": "Bluewater Renewables Construction Co.",
+  "total_contract_value": 915000.0,
+  "currency": "USD",
+  "payment_terms_days": 60,
+  "milestones": [
+    {
+      "name": "Mobilization",
+      "percent_of_total": 15,
+      "trigger": "mobilization to site"
+    },
+    {
+      "name": "Rough-in Complete",
+      "percent_of_total": 45,
+      "trigger": "completion of underground conduit and foundations"
+    },
+    {
+      "name": "Mechanical Completion",
+      "percent_of_total": 30,
+      "trigger": "Contractor's acceptance of mechanical completion"
+    },
+    {
+      "name": "Retainage Release",
+      "percent_of_total": 10,
+      "trigger": "final acceptance by the Owner"
+    }
+  ],
+  "delivery_deadline": "2026-11-20",
+  "liquidated_damages_percent_per_week": 1.0,
+  "liquidated_damages_cap_percent": 10,
+  "warranty_months": 12,
+  "change_orders_require_written_approval": true,
+  "evidence": [
+    {
+      "field": "total_contract_value",
+      "quote": "USD 915,000.00"
+    },
+    {
+      "field": "payment_terms_days",
+      "quote": "net 60 days"
+    }
+  ]
+}
