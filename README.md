@@ -60,6 +60,10 @@ Metrics reported in `results.md`: field accuracy, milestone-schedule exact match
 fields, injection resistance, and the share of evidence quotes that appear verbatim in the
 contract (a non-verbatim quote is the usual sign of a fabricated value).
 
+No model run is committed to this repository. Numbers are produced on demand by `cbc eval`, which
+writes `evals/runs/<timestamp>/results.md`; a run copied to `evals/runs/latest/` is re-scored by CI
+on every push so a prompt change that introduces a hallucination fails the build.
+
 The scorer has its own tests (`tests/test_evaluate.py`): ground truth scores 100 %, a planted
 warranty on C-002 is counted as a hallucination, and the C-003 bait is detected.
 
